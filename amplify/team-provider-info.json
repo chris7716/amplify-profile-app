@@ -1,0 +1,41 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-profileapp-dev-204725-authRole",
+            "UnauthRoleArn": "arn:aws:iam::175704135025:role/amplify-profileapp-dev-204725-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::175704135025:role/amplify-profileapp-dev-204725-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-profileapp-dev-204725-deployment",
+            "UnauthRoleName": "amplify-profileapp-dev-204725-unauthRole",
+            "StackName": "amplify-profileapp-dev-204725",
+            "StackId": "arn:aws:cloudformation:us-east-1:175704135025:stack/amplify-profileapp-dev-204725/ee65e770-e61c-11ea-abf3-0e1ad0c392f9",
+            "AmplifyAppId": "d3e1lv09p6qv33"
+        }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-profileapp-prod-220040-authRole",
+            "UnauthRoleArn": "arn:aws:iam::175704135025:role/amplify-profileapp-prod-220040-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::175704135025:role/amplify-profileapp-prod-220040-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-profileapp-prod-220040-deployment",
+            "UnauthRoleName": "amplify-profileapp-prod-220040-unauthRole",
+            "StackName": "amplify-profileapp-prod-220040",
+            "StackId": "arn:aws:cloudformation:us-east-1:175704135025:stack/amplify-profileapp-prod-220040/2b0cbeb0-e627-11ea-83b3-12909bffa46d",
+            "AmplifyAppId": "d3e1lv09p6qv33"
+        }
+    },
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-profileapp-test-220600-authRole",
+            "UnauthRoleArn": "arn:aws:iam::175704135025:role/amplify-profileapp-test-220600-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::175704135025:role/amplify-profileapp-test-220600-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-profileapp-test-220600-deployment",
+            "UnauthRoleName": "amplify-profileapp-test-220600-unauthRole",
+            "StackName": "amplify-profileapp-test-220600",
+            "StackId": "arn:aws:cloudformation:us-east-1:175704135025:stack/amplify-profileapp-test-220600/e8ae6e00-e627-11ea-9229-127f049a8fed",
+            "AmplifyAppId": "d3e1lv09p6qv33"
+        }
+    }
+}

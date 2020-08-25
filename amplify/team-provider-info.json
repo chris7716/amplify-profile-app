@@ -10,6 +10,13 @@
             "StackName": "amplify-profileapp-dev-204725",
             "StackId": "arn:aws:cloudformation:us-east-1:175704135025:stack/amplify-profileapp-dev-204725/ee65e770-e61c-11ea-abf3-0e1ad0c392f9",
             "AmplifyAppId": "d3e1lv09p6qv33"
+        },
+        "categories": {
+            "auth": {
+                "profileapp7fad682d": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"777976482136-0ns42758cfvtpjkdg1ukpdk2kr29c302.apps.googleusercontent.com\",\"client_secret\":\"0aMkk1mB9jgsBt6PxQ82qhz4\"}]"
+                }
+            }
         }
     },
     "prod": {
@@ -23,6 +30,13 @@
             "StackName": "amplify-profileapp-prod-220040",
             "StackId": "arn:aws:cloudformation:us-east-1:175704135025:stack/amplify-profileapp-prod-220040/2b0cbeb0-e627-11ea-83b3-12909bffa46d",
             "AmplifyAppId": "d3e1lv09p6qv33"
+        },
+        "categories": {
+            "auth": {
+                "profileapp7fad682d": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"777976482136-0ns42758cfvtpjkdg1ukpdk2kr29c302.apps.googleusercontent.com\",\"client_secret\":\"0aMkk1mB9jgsBt6PxQ82qhz4\"}]"
+                }
+            }
         }
     },
     "test": {
@@ -36,6 +50,13 @@
             "StackName": "amplify-profileapp-test-220600",
             "StackId": "arn:aws:cloudformation:us-east-1:175704135025:stack/amplify-profileapp-test-220600/e8ae6e00-e627-11ea-9229-127f049a8fed",
             "AmplifyAppId": "d3e1lv09p6qv33"
+        },
+        "categories": {
+            "auth": {
+                "profileapp7fad682d": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"777976482136-0ns42758cfvtpjkdg1ukpdk2kr29c302.apps.googleusercontent.com\",\"client_secret\":\"0aMkk1mB9jgsBt6PxQ82qhz4\"}]"
+                }
+            }
         }
     }
 }

@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { CheckboxModule, WavesModule, ButtonsModule, InputsModule, IconsModule, CardsModule, NavbarModule } from 'angular-bootstrap-md'
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,13 +18,7 @@ import { ProfileComponent } from './profile/profile.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CheckboxModule,
-    WavesModule, 
-    ButtonsModule, 
-    InputsModule, 
-    IconsModule, 
-    CardsModule, 
-    NavbarModule
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

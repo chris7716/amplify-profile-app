@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
   googleSignIn(){
     Auth.federatedSignIn(
       {
-        provider: CognitoHostedUIIdentityProvider.Google
+        customProvider: 'Google'
       }
     )
   }

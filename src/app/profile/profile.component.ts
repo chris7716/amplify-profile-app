@@ -8,12 +8,17 @@ import { Auth } from 'aws-amplify';
 })
 export class ProfileComponent implements OnInit {
 
+  name: string;
+  picture: string;
+
   constructor() { }
 
   ngOnInit(): void {
     Auth.currentAuthenticatedUser()
       .then(user => {
-        console.log(user);
+        this.name = user.attributes.name;
+        this.picture = user.attributes.picture;
+        console.log(user.attributes);
       })
       .catch(() => console.log("Not signed in"));
   }

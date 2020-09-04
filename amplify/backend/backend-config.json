@@ -1,10 +1,10 @@
 {
-    "auth": {
-        "profileapp7fad682d": {
-            "service": "Cognito",
-            "providerPlugin": "awscloudformation",
-            "dependsOn": [],
-            "customAuth": false
-        }
+  "auth": {
+    "profileapp7fad682d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
     }
+  }
 }
